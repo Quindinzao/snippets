@@ -1,9 +1,9 @@
 {
-	"ReactJS component": {
-		"prefix": "rfc",
-		"body": [
-			"// External libraries",
-			"import React from 'react'",
+  "ReactJS component": {
+    "prefix": "rfc",
+    "body": [
+      "// External libraries",
+      "import React from 'react'",
       "",
       "const ReactComponent$1: React.FC = () => {",
       "\treturn (",
@@ -14,7 +14,7 @@
       "}",
       "",
       "export default ReactComponent$1"
-		],
-		"description": "Log output to console"
-	}
+    ],
+    "description": "Log output to console"
+  }
 }
