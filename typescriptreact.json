@@ -1,5 +1,6 @@
 // File/Preferences/User Snippets/typescript React
 
+// Snippet para criar um componente ReactJS
 {
   "ReactJS component": {
     "prefix": "rfc",
