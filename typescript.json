@@ -1,0 +1,14 @@
+{
+	"Styled Components": {
+		"prefix": "rsc",
+		"body": [
+		  "import styled from 'styled-components'",
+		  "",
+		  "export const ${1:Container} = styled.${2:div}`",
+		  "\t${3}",
+		  "`",
+		  ""
+		],
+		"description": "Snippet para criar uma const styled"
+	}
+}
