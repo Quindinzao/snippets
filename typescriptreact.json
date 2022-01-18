@@ -19,7 +19,7 @@
     ],
     "description": "Snippet para criar um componente ReactJS"
   },
-  "Styled Components": {
+  "Styled-components component": {
     "prefix": "styled-react",
     "body": [
       "import styled from 'styled-components'",
