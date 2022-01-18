@@ -18,5 +18,17 @@
       "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}"
     ],
     "description": "Snippet para criar um componente ReactJS"
+  },
+  "Styled Components": {
+    "prefix": "styled-react",
+    "body": [
+      "import styled from 'styled-components'",
+      "",
+      "export const ${1:Container} = styled.${2:div}`",
+      "\t${3}",
+      "`",
+      ""
+    ],
+    "description": "Snippet para criar uma const styled"
   }
 }
