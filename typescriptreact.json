@@ -20,3 +20,29 @@
     "description": "Snippet para criar um componente ReactJS"
   }
 }
+
+// File/Preferences/User Snippets/react-native-snippet.code-snippets
+{
+  "ReactJS component": {
+    "prefix": "rfc",
+    "body": [
+      "// External libraries",
+      "import React from 'react'",
+			"import { $2 } from 'react-native'",
+			"",
+			"// Styled",
+			"import styles from './styles'",
+      "",
+      "const ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$3/}}: React.FC = () => {",
+      "\treturn (",
+      "\t\t<$2>",
+      "\t\t\t$3",
+      "\t\t</$2>",
+      "\t)",
+      "}",
+      "",
+      "export default ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$3/}}"
+    ],
+    "description": "Snippet para criar um componente React-Native"
+  }
+}
